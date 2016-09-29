@@ -1,0 +1,169 @@
+[22-Sep-2016 15:27:32 UTC] PHP Warning:  include(list_tareas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:27:32 UTC] PHP Stack trace:
+[22-Sep-2016 15:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:27:32 UTC] PHP Warning:  include(): Failed opening 'list_tareas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:27:32 UTC] PHP Stack trace:
+[22-Sep-2016 15:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:28:35 UTC] PHP Warning:  include(controlador/list_tareas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:28:35 UTC] PHP Stack trace:
+[22-Sep-2016 15:28:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:28:35 UTC] PHP Warning:  include(): Failed opening 'controlador/list_tareas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:28:35 UTC] PHP Stack trace:
+[22-Sep-2016 15:28:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:28:36 UTC] PHP Warning:  include(controlador/list_tareas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:28:36 UTC] PHP Stack trace:
+[22-Sep-2016 15:28:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:28:36 UTC] PHP Warning:  include(): Failed opening 'controlador/list_tareas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:28:36 UTC] PHP Stack trace:
+[22-Sep-2016 15:28:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:28:59 UTC] PHP Warning:  include(controlador/list_tareas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:28:59 UTC] PHP Stack trace:
+[22-Sep-2016 15:28:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:28:59 UTC] PHP Warning:  include(): Failed opening 'controlador/list_tareas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:28:59 UTC] PHP Stack trace:
+[22-Sep-2016 15:28:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:29:03 UTC] PHP Warning:  include(*/controlador/list_tareas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:29:03 UTC] PHP Stack trace:
+[22-Sep-2016 15:29:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:29:03 UTC] PHP Warning:  include(): Failed opening '*/controlador/list_tareas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:29:03 UTC] PHP Stack trace:
+[22-Sep-2016 15:29:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:29:18 UTC] PHP Warning:  include(/controlador/list_tareas.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:29:18 UTC] PHP Stack trace:
+[22-Sep-2016 15:29:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:29:18 UTC] PHP Warning:  include(): Failed opening '/controlador/list_tareas.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/vista/index.php on line 2
+[22-Sep-2016 15:29:18 UTC] PHP Stack trace:
+[22-Sep-2016 15:29:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:30:23 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:30:23 UTC] PHP Stack trace:
+[22-Sep-2016 15:30:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:30:23 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:30:23 UTC] PHP   3. mysql_fetch_array() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:31:35 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:31:35 UTC] PHP Stack trace:
+[22-Sep-2016 15:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:31:35 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:31:35 UTC] PHP   3. mysql_fetch_assoc() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:32:15 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:32:15 UTC] PHP Stack trace:
+[22-Sep-2016 15:32:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:32:15 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:32:15 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:32:15 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:32:15 UTC] PHP Stack trace:
+[22-Sep-2016 15:32:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:32:15 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:32:15 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:32:15 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:32:15 UTC] PHP Stack trace:
+[22-Sep-2016 15:32:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:32:15 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:32:15 UTC] PHP   3. mysql_fetch_assoc() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:32:51 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:32:51 UTC] PHP Stack trace:
+[22-Sep-2016 15:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:32:51 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:32:51 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:32:51 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:32:51 UTC] PHP Stack trace:
+[22-Sep-2016 15:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:32:51 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:32:51 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:32:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:32:51 UTC] PHP Stack trace:
+[22-Sep-2016 15:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:32:51 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:32:51 UTC] PHP   3. mysql_fetch_array() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:34:04 UTC] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/controlador/conexion_bbdd.php on line 8
+[22-Sep-2016 15:34:04 UTC] PHP Stack trace:
+[22-Sep-2016 15:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:34:04 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:34:04 UTC] PHP   3. include() /home/ubuntu/workspace/controlador/list_tareas.php:4
+[22-Sep-2016 15:34:04 UTC] PHP   4. mysql_connect() /home/ubuntu/workspace/controlador/conexion_bbdd.php:8
+[22-Sep-2016 15:34:04 UTC] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/controlador/conexion_bbdd.php on line 8
+[22-Sep-2016 15:34:04 UTC] PHP Stack trace:
+[22-Sep-2016 15:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:34:04 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:34:04 UTC] PHP   3. include() /home/ubuntu/workspace/controlador/list_tareas.php:4
+[22-Sep-2016 15:34:04 UTC] PHP   4. mysql_connect() /home/ubuntu/workspace/controlador/conexion_bbdd.php:8
+[22-Sep-2016 15:35:19 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:35:19 UTC] PHP Stack trace:
+[22-Sep-2016 15:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:35:19 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:35:19 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:35:19 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:35:19 UTC] PHP Stack trace:
+[22-Sep-2016 15:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:35:19 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:35:19 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:35:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:35:19 UTC] PHP Stack trace:
+[22-Sep-2016 15:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:35:19 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:35:19 UTC] PHP   3. mysql_fetch_array() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:35:59 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/controlador/conexion_bbdd.php on line 14
+[22-Sep-2016 15:35:59 UTC] PHP Stack trace:
+[22-Sep-2016 15:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:35:59 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:35:59 UTC] PHP   3. include() /home/ubuntu/workspace/controlador/list_tareas.php:4
+[22-Sep-2016 15:35:59 UTC] PHP   4. mysql_close() /home/ubuntu/workspace/controlador/conexion_bbdd.php:14
+[22-Sep-2016 15:35:59 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:35:59 UTC] PHP Stack trace:
+[22-Sep-2016 15:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:35:59 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:35:59 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:35:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:35:59 UTC] PHP Stack trace:
+[22-Sep-2016 15:35:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:35:59 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:35:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:36:14 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:36:14 UTC] PHP Stack trace:
+[22-Sep-2016 15:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:36:14 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:36:14 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:36:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:36:14 UTC] PHP Stack trace:
+[22-Sep-2016 15:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:36:14 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:36:14 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:38:11 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, resource given in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:38:11 UTC] PHP Stack trace:
+[22-Sep-2016 15:38:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:38:11 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:38:11 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:38:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:38:11 UTC] PHP Stack trace:
+[22-Sep-2016 15:38:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:38:11 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:38:11 UTC] PHP   3. mysql_fetch_array() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:38:50 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:38:50 UTC] PHP Stack trace:
+[22-Sep-2016 15:38:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:38:50 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:38:50 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:38:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:38:50 UTC] PHP Stack trace:
+[22-Sep-2016 15:38:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:38:50 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:38:50 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:39:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:39:09 UTC] PHP Stack trace:
+[22-Sep-2016 15:39:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:39:09 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:39:09 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:39:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:39:09 UTC] PHP Stack trace:
+[22-Sep-2016 15:39:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:39:09 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:39:09 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/controlador/list_tareas.php:9
+[22-Sep-2016 15:40:53 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/controlador/list_tareas.php on line 6
+[22-Sep-2016 15:40:53 UTC] PHP Stack trace:
+[22-Sep-2016 15:40:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:40:53 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:40:53 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/controlador/list_tareas.php:6
+[22-Sep-2016 15:40:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/controlador/list_tareas.php on line 9
+[22-Sep-2016 15:40:53 UTC] PHP Stack trace:
+[22-Sep-2016 15:40:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/vista/index.php:0
+[22-Sep-2016 15:40:53 UTC] PHP   2. include() /home/ubuntu/workspace/vista/index.php:2
+[22-Sep-2016 15:40:53 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/controlador/list_tareas.php:9
