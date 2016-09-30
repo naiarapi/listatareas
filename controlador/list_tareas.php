@@ -8,7 +8,14 @@
         $resultado = $conexion->query($sql_consulta);
         
         while($linea = $resultado->fetch_assoc()){
-            echo $linea["asignatura"] . " - " . $linea["fecha"] . " - " . $linea["descripcion"] . "</br>";
+            echo $linea["id"]. "-" . $linea["asignatura"] . " - " . $linea["fecha"] . " - " . $linea["descripcion"] . "</br>";
+           
+            echo "<a href='editar.php?id=".$linea["id"]."'>Actualizar</a>";
         }
+        
+        
+
 
 ?>
+
+            
